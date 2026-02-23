@@ -1,0 +1,108 @@
+body {
+  background: 
+    linear-gradient(rgba(255,255,255,0.5), rgba(255,255,255,0.5)), /* semi-transparent white overlay */
+    url('images.jpg') no-repeat center center fixed;
+  background-size: cover;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+.todo-container {
+  background: #fff;
+  max-width: 400px;
+  margin: 40px auto;
+  padding: 2em 1.5em 1.5em 1.5em;
+  border-radius: 12px;
+  box-shadow: 0 4px 24px #b3b3b333;
+}
+h1 {
+  text-align: center;
+  color: #4a90e2;
+  margin-bottom: 1em;
+}
+.add-task {
+  display: flex;
+  gap: 0.5em;
+  margin-bottom: 1em;
+}
+.add-task input {
+  flex: 1;
+  padding: 0.7em;
+  border: 1px solid #b3b3b3;
+  border-radius: 6px;
+  font-size: 1em;
+}
+.add-task button {
+  padding: 0.7em 1.2em;
+  background: #4a90e2;
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+.add-task button:hover {
+  background: #357abd;
+}
+.filters {
+  display: flex;
+  justify-content: center;
+  gap: 0.5em;
+  margin-bottom: 1em;
+}
+.filter-btn {
+  background: #eaeaea;
+  border: none;
+  border-radius: 6px;
+  padding: 0.4em 1em;
+  cursor: pointer;
+  font-weight: bold;
+  color: #4a90e2;
+  transition: background 0.2s, color 0.2s;
+}
+.filter-btn.active, .filter-btn:hover {
+  background: #4a90e2;
+  color: #fff;
+}
+#taskList {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.task-item {
+  display: flex;
+  align-items: center;
+  padding: 0.7em 0.5em;
+  border-bottom: 1px solid #f0f0f0;
+  font-size: 1.05em;
+}
+.task-item:last-child {
+  border-bottom: none;
+}
+.task-checkbox {
+  margin-right: 1em;
+  width: 18px;
+  height: 18px;
+  accent-color: #4a90e2;
+}
+.task-text {
+  flex: 1;
+  transition: color 0.2s;
+}
+.task-item.completed .task-text {
+  text-decoration: line-through;
+  color: #b3b3b3;
+}
+.delete-btn {
+  background: none;
+  border: none;
+  color: #e74c3c;
+  font-size: 1.2em;
+  cursor: pointer;
+  margin-left: 0.7em;
+  transition: color 0.2s;
+}
+.delete-btn:hover {
+  color: #c0392b;
+}
