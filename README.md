@@ -53,8 +53,8 @@ No installation required - simply open the `index.html` file in any modern web b
   ---
   
 ## preview
+<img width="1593" height="758" alt="image" src="https://github.com/user-attachments/assets/975fa168-5334-4126-a8e1-4d623f0c9cca" />
 
-<img width="1915" height="884" alt="image" src="https://github.com/user-attachments/assets/b9c5a9ad-47ee-42f9-89c0-e24b3f6c248f" />
 
 
 ## Data Persistence
